@@ -1,8 +1,9 @@
 class Revu < Formula
   desc "Your GitHub pull requests, reviewed in the terminal"
   homepage "https://cjhwong.github.io/revu/"
-  version "0.1.0"
   license "MIT"
+
+  depends_on "gh"
 
   on_macos do
     on_arm do
@@ -25,8 +26,6 @@ class Revu < Formula
       sha256 "ed8f64980bad4d70fc0d6e2a80b0f92d5160f10a3a87db7db082f8ef16766e7b"
     end
   end
-
-  depends_on "gh"
 
   def install
     bin.install "revu"

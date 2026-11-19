@@ -7,23 +7,23 @@ class Revu < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/CJHwong/revu/releases/download/v0.3.0/revu-aarch64-apple-darwin.tar.gz"
-      sha256 "c6f69991288cb45bd10896798925d470b46be53c44fd9254c6e7289a4265e4b8"
+      url "https://github.com/CJHwong/revu/releases/download/v0.4.0/revu-aarch64-apple-darwin.tar.gz"
+      sha256 "634f232b4080718ccfcf3ebe683ad880f9e09d400dd37fda40db80866755cc84"
     end
     on_intel do
-      url "https://github.com/CJHwong/revu/releases/download/v0.3.0/revu-x86_64-apple-darwin.tar.gz"
-      sha256 "4fced9f187621776e4d7394494276b01a984067af070b4674d061f25fe9185cb"
+      url "https://github.com/CJHwong/revu/releases/download/v0.4.0/revu-x86_64-apple-darwin.tar.gz"
+      sha256 "587c3ecab88d612c6c52f0dda85c9d56611702f4f63aa4b8884561f860f82659"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/CJHwong/revu/releases/download/v0.3.0/revu-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "c03d440f7e97fd70933ed181dab06e4dcc026888a87627b5d8192ad41e08de94"
+      url "https://github.com/CJHwong/revu/releases/download/v0.4.0/revu-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "52e068f02a907695398f4cf01d35aa8b158cf9e70dd259a806c89cc7edfb95fc"
     end
     on_intel do
-      url "https://github.com/CJHwong/revu/releases/download/v0.3.0/revu-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "7d1e453a95917e5c6e6678cf71d4945213fed5f7081efd8f1d7646bf54bab620"
+      url "https://github.com/CJHwong/revu/releases/download/v0.4.0/revu-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "cf3a76c260e131c005f65aff452f50323ebf6741400a89957cd6360c34912fe1"
     end
   end
 

@@ -1,6 +1,6 @@
 cask "lazy-take-notes" do
-  version "0.3.1"
-  sha256 "7f81f6a951d6adb7bd74ef56f8d1b5ea934e733f18126ef034e7f426236cd9ba"
+  version "0.3.2"
+  sha256 "cef45b15df3e09b0d65c7a1d8aaf8b9c9c2bc5f13bac132a433fe3e230fc9494"
 
   url "https://github.com/CJHwong/lazy-take-notes/releases/download/v#{version}/Lazy-Take-Notes-arm64-macos.zip"
   name "Lazy Take Notes"
